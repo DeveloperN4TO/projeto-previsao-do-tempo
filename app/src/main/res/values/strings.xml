@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Projeto tempo</string>
+    <string name="localiza_o">Localização</string>
+    <string name="atualizar_em">Atualizar em</string>
+    <string name="c_u_limpo">Céu Limpo</string>
+    <string name="_19_c">19°C</string>
+    <string name="min_tempo">Min tempo</string>
+    <string name="max_tempo">Max Tempo</string>
+    <color name="Text">#F8F8F6</color>
+</resources>

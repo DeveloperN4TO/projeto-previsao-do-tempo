@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/gradiente"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/meuContainer"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ContainerEndereço"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textEndereço"
+                android:textSize="24sp"
+                android:text="@string/localiza_o"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/atualizar_em"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:text="@string/atualizar_em"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ContainerPai"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/status"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="@string/c_u_limpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            
+            <TextView
+                android:id="@+id/tempo"
+                android:textSize="90sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-thin"
+                android:layout_gravity="center"
+                android:text="@string/_19_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/temp_min"
+                    android:text="@string/min_tempo"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content">
+                </Space>
+
+                <TextView
+                    android:id="@+id/max_tempo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/max_tempo"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/detalhesContainer"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:background="#3CF1EBF1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                </LinearLayout>
+                
+                
+            </LinearLayout>
+            
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+
+</RelativeLayout>
