@@ -6,5 +6,24 @@
     <string name="_19_c">19°C</string>
     <string name="min_tempo">Min tempo</string>
     <string name="max_tempo">Max Tempo</string>
+    <string name="nascer_do_sol">Nascer do Sol</string>
+    <string name="Hora">6:30am</string>
+    <string name="Amanhecer">5:30am</string>
+    <string name="por_do_sol">Por do sol</string>
+    <string name="vento">Vento</string>
+    <string name="press_o">Pressão</string>
+    <string name="_5_30am">5:30am</string>
+    <string name="informa_es">Informações</string>
+    <string name="sergio_dev">Sergio.dev</string>
+    <string name="Text_Error">Algo deu errado!</string>
+    <string name="aba_de_informa_es">Aba de informações</string>
+    <string name="umidade">Umidade</string>
+    <string name="aba_umidade_do_ar">Aba umidade do ar.</string>
+    <string name="aba_press_o_do_ar_e_do_vento">Aba pressão do ar e do vento</string>
+    <string name="_5_45am">5:45am</string>
+    <string name="aba_informa_oes_do_vento">Aba informaçoes do vento</string>
+    <string name="_17_30pm">17:30pm</string>
+    <string name="aba_informa_es_sobre_o_por_do_sol">Aba informações sobre o por do sol</string>
+    <string name="aba_informa_es_sobre_o_nascer_do_sol">Aba informações sobre o nascer do sol</string>
     <color name="Text">#F8F8F6</color>
 </resources>

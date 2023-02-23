@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="25dp"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
     android:background="@drawable/gradiente"
     tools:context=".MainActivity">
 
@@ -122,17 +124,253 @@
                     android:background="#3CF1EBF1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/sunrise"
+                        app:tint="#FFF"
+                        android:contentDescription="@string/aba_informa_es_sobre_o_nascer_do_sol">
+                    </ImageView>
 
+                    <Space
+                        android:layout_height="wrap_content"
+                        android:layout_width="5dp">
+                    </Space>
+                    <TextView
+                        android:text="@string/nascer_do_sol"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/nascerdosol"
+                        android:textSize="14sp"
+                        android:text="@string/Amanhecer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
                 </LinearLayout>
-                
-                
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content">
+                </Space>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:background="#3CF1EBF1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/sunset"
+                        app:tint="#FFF"
+                        android:contentDescription="@string/aba_informa_es_sobre_o_por_do_sol">
+                    </ImageView>
+
+                    <Space
+                        android:layout_height="wrap_content"
+                        android:layout_width="5dp">
+                    </Space>
+                    <TextView
+                        android:text="@string/por_do_sol"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/pordosol"
+                        android:textSize="14sp"
+                        android:text="@string/_17_30pm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content">
+                </Space>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:background="#3CF1EBF1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/wind"
+                        app:tint="#FFF"
+                        android:contentDescription="@string/aba_informa_oes_do_vento">
+                    </ImageView>
+
+                    <Space
+                        android:layout_height="wrap_content"
+                        android:layout_width="5dp">
+                    </Space>
+                    <TextView
+                        android:text="@string/vento"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/vento"
+                        android:textSize="14sp"
+                        android:text="@string/_5_45am"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content">
+                </Space>
             </LinearLayout>
-            
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp">
 
+            </Space>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:background="#3CF1EBF1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/pressure"
+                        app:tint="#FFF"
+                        android:contentDescription="@string/aba_press_o_do_ar_e_do_vento">
+                    </ImageView>
 
+                    <Space
+                        android:layout_height="wrap_content"
+                        android:layout_width="5dp">
+                    </Space>
+                    <TextView
+                        android:text="@string/press_o"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/pressão"
+                        android:textSize="14sp"
+                        android:text="@string/_5_30am"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content">
+                </Space>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:background="#3CF1EBF1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/humidity"
+                        app:tint="#FFF"
+                        android:contentDescription="@string/aba_umidade_do_ar">
+                    </ImageView>
 
+                    <Space
+                        android:layout_height="wrap_content"
+                        android:layout_width="5dp">
+                    </Space>
+                    <TextView
+                        android:text="@string/umidade"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/umidade"
+                        android:textSize="14sp"
+                        android:text="@string/Amanhecer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content">
+                </Space>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:background="#3CF1EBF1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/info"
+                        app:tint="#FFF"
+                        android:contentDescription="@string/aba_de_informa_es">
+                    </ImageView>
+
+                    <Space
+                        android:layout_height="wrap_content"
+                        android:layout_width="5dp">
+                    </Space>
+                    <TextView
+                        android:text="@string/informa_es"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/Info"
+                        android:textSize="14sp"
+                        android:text="@string/sergio_dev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content">
+                </Space>
+            </LinearLayout>
         </LinearLayout>
-
-</RelativeLayout>
-
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/carregar"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+    <TextView
+        android:id="@+id/errortext"
+        android:layout_centerInParent="true"
+        android:text="@string/Text_Error"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
 </RelativeLayout>
